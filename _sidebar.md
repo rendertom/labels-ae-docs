@@ -1,0 +1,6 @@
+- [Introduction](/index.md)
+- [Installation](installation.md)
+- [Interface](interface.md)
+- [Snippets](snippets.md)
+- [Themes](themes.md)
+- [Known issues](known-issues.md)
