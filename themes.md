@@ -2,7 +2,7 @@
 
 > Themes bring power to After Effects to switch label colors at any time without the need to restart application. Try different label colors, assignments, and save them to a file to share with the team.
 
-![Themes](https://raw.githubusercontent.com/rendertom/Labels/master/img/Themes.gif)
+![Themes](./assets/themes.gif)
 
 ---
 

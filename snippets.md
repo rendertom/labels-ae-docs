@@ -19,7 +19,7 @@ Download all the snippets at once [here](https://github.com/rendertom/Labels/rel
 * [Push Layers Up By One](https://raw.githubusercontent.com/rendertom/Labels/master/Snippets/Push%20Layers%20Up%20By%20One.js) - pushes layers with this label to the top of the layer stack one by one,
 * [Shy Everything Except](https://raw.githubusercontent.com/rendertom/Labels/master/Snippets/Shy%20Everything%20Except.js) toggles 'solo' property of all layers that do not match given label color in composition,
 * [Toggle Shy](https://raw.githubusercontent.com/rendertom/Labels/master/Snippets/Toggle%20Shy.js) - toggles 'shy' property of all layers with given label color in composition,
-* [Toggle Solo](https://raw.githubusercontent.com/rendertom/Labels/master/Snippets/Toggle%20Solo.js) - toggles 'shy' property of all layers with given label color in composition.
+* [Toggle Solo](https://raw.githubusercontent.com/rendertom/Labels/master/Snippets/Toggle%20Solo.js) - toggles 'solo' property of all layers with given label color in composition.
 
 ---
 
@@ -28,11 +28,10 @@ Download all the snippets at once [here](https://github.com/rendertom/Labels/rel
 Labels script exposes the following API:
 
 ``` javascript
-index (Number)            // label index,
-hex (String)              // label HEX color,
-rgb ([Number])            // label RGB color [0-255, 0-255, 0-255]
-name (String)             // label name
-targetKeyframes (Boolean) // whether the target:keyframes is enabled in the main UI
+index (Number)    // label index,
+hex (String)      // label HEX color,
+rgb ([Number])    // label RGB color [0-255, 0-255, 0-255]
+name (String)     // label name
 ```
 
 The example below demonstrates how to create a simple snippet for Labels.

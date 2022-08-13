@@ -10,14 +10,11 @@ This page describes all script windows and their functionality.
 
 ![Main UI](./assets/UI/main.svg ':size=800')
 
-- **Target**: and option to select what to target:
-  - Keyframes or
-  - Layers and/or Project items
-- **Filter (F)**: (depending on the *Target*)
+- **Filter (F)**:
   - shows witch labels are used in selected Keyframes or Layers/Items.
-  - shows witch labels are unused in selected Keyframes or Layers/Items.
+  - ALT: shows witch labels are unused in selected Keyframes or Layers/Items.
 - **Back (B)**: brings all available color swatches to the UI.
-- **Reset (X)**: depending on the *Target*, sets Keyframe or Layer/Item default label color.
+- **Reset (X)**: sets Keyframe or Layer/Item default label color.
 - **Settings (S)**:
   - opens up the [Settings](#settings) window.
   - SHIFT: opens the [Snippet editor](#snippet-editor) window.
@@ -42,13 +39,13 @@ This page describes all script windows and their functionality.
   - **Show label name in tooltip** - toggles tooltip visibility.
   - **Show filter buttons** - toggles visibility of **Filter (F)** and **Back (B)** buttons in the Labels UI.
   - **Select locked layers** - toggles locked layer selection.
+  - **Append to selection when selecting** - appends label group to current selection instead of deselecting everything and then selecting the label group.
 
 - Keyboard keys:
   - **Set color** - sets label color.
   - **Affect layer & item** - affects both layer and its source item at once.
+  - **Target keyframes** - keyboard key to target keyframes instead of layers/items.
   - **Select label group** - selects same label group.
-  - **Append to selection** - adds current label group to selection.
-  - **Select all except** - selects all label groups except the current one.
   - **Remove from selection** - removes current label group from selection.
   - **Open swatch editor** - opens the [Swatch editor](#swatch-editor) window.
 
@@ -56,6 +53,7 @@ Use modifiers keys (*SHIFT*, *CMD*, *ALT*) and/or a key name (*Q*, *W*, *E*, *R*
 
 You can combine multiple modifier keys together, however, only one key name is allowed: i.e. *shift + e + r* or *shift + cmd + e + r* will not work.
 
+- **Reset settings** - resets settings to the default values.
 - **Open snippet editor** - opens the [Snippet editor](#snippet-editor) window.
 
 ---
@@ -67,8 +65,6 @@ You can combine multiple modifier keys together, however, only one key name is a
 - **Script name**: assigned automatically. Usually it's the base name of the target script file.
 - **Key**: a keyboard key to be pressed when clicking on a swatch to execute the target script.
 - **Path to script file**: the file path of the targeted script file.
-
-TODO: add a link to Snippets tutorial and downloads
 
 ---
 
