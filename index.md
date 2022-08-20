@@ -2,7 +2,7 @@
 
 > Labels is After Effects script that takes full control over label colors - set label colors and select label groups with a single button click. Works with keyframes, layers, and project panel items.
 
-<iframe height="443" src="https://www.youtube.com/embed/5iXika8m5L4" allowfullscreen></iframe>
+<iframe height="443" src="https://www.youtube.com/embed/KgT1sJ4RlG0" allowfullscreen></iframe>
 
 ---
 
